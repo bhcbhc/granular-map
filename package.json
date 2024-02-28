@@ -1,12 +1,16 @@
 {
   "name": "granular-map",
   "version": "0.0.1",
+  "private": true,
   "description": "A React panoramic map  based on L7",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
+  ],
+  "workspaces": [
+    "packages/*"
   ],
   "scripts": {
     "build": "father build",
@@ -53,6 +57,7 @@
     "eslint": "^8.56.0",
     "father": "^4.4.0",
     "husky": "^9.0.11",
+    "lerna": "^8.1.2",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
@@ -70,5 +75,6 @@
   },
   "authors": [
     "bhcbhc"
-  ]
+  ],
+  "dependencies": {}
 }

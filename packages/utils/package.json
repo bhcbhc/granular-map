@@ -1,0 +1,32 @@
+{
+  "name": "@granular-map/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/bhcbhc/granular-map#readme",
+  "bugs": {
+    "url": "https://github.com/bhcbhc/granular-map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhcbhc/granular-map.git"
+  },
+  "license": "ISC",
+  "author": "ninghai <ninghai@sensoro.com>",
+  "sideEffects": true,
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "es",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  }
+}

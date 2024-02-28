@@ -1,6 +1,30 @@
 node_modules
-/dist
+
+# dependencies
+node_modules
+npm-debug.log*
+yarn-error.log
+lerna-debug.log
+pnpm-lock.yaml
+.pnpm-debug.log
+
+# misc
+.DS_Store
+public
+.cache
+
+# editor
+.vscode
+.idea
+
+# production
+lib/
+dist/
+es/
+
+
+.umi
+.umi-production
 .dumi/tmp
 .dumi/tmp-test
 .dumi/tmp-production
-.DS_Store

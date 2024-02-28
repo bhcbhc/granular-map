@@ -1,0 +1,26 @@
+{
+  "name": "@granular-map/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/bhcbhc/granular-map#readme",
+  "bugs": {
+    "url": "https://github.com/bhcbhc/granular-map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhcbhc/granular-map.git"
+  },
+  "license": "ISC",
+  "author": "ninghai <ninghai@sensoro.com>",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  }
+}
